@@ -14,7 +14,13 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- La exportación de datos fue deseleccionada.
+-- Volcando datos para la tabla base_de_datos.usuarios: ~5 rows (aproximadamente)
+INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES
+	(1, 'Victor', 'Nibeyro', 35, '2023-05-29 02:35:44', 'Misiones'),
+	(2, 'María', 'Perez', 50, '2023-05-29 02:36:30', 'Catamarca'),
+	(3, 'Soledad', 'Sanchez', 30, '2023-05-29 02:38:19', 'Buenos Aires'),
+	(4, 'Isabel', 'García', 60, '2023-05-29 02:38:20', 'Corrientes'),
+	(5, 'Alicia', 'Sosa', 65, '2023-05-29 02:38:20', 'Entre Ríos');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
